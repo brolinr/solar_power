@@ -1,0 +1,20 @@
+<header class="d-flex flex-wrap justify-content-center py-3 border-success border-bottom mb-4">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none logo">
+        <%= image_tag "label.png", class: "img-fluid", alt: "Solar Power" %>
+    </a>
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <%= link_to "Home", root_path, class: "nav-link active text-white" %>
+        </li>
+        <li class="nav-item"><a href="#" class="nav-link text-dark">Pricing</a></li>
+        <li class="nav-item">
+            <%= link_to "Contact us", static_pages_contact_path, class: "nav-link text-dark" %>
+        </li>
+        <li class="nav-item">
+            <%= link_to "Our work", static_pages_contact_path, class: "nav-link text-dark" %>
+        </li>
+        <li class="nav-item">
+            <%= link_to "About us", static_pages_about_path, class: "nav-link text-dark" %>
+        </li>
+    </ul>
+</header>
